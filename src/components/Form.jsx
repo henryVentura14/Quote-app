@@ -132,7 +132,7 @@ const Form = ({ saveSummary, saveLoading }) => {
     return (
         <form onSubmit={insuranceQuote}>
             <Field>
-                {error ? <Error>dasdasd</Error> : null}
+                {error ? <Error>Please select options </Error> : null}
             </Field>
             <Field>
                 <Label>Brand</Label>
